@@ -1,0 +1,8 @@
+# Configuration for Sorting and Searching Algorithms
+# Available sorting algorithms: Bubble_Sort, Insertion_Sort, Selection_Sort, Quick_Sort, Merge_Sort
+# Available searching algorithms: Binary_Search, Linear_Search
+# sorting_threshold defines the cutoff for when to switch to a faster sorting algorithm
+
+default_sorting_algorithm = Quick_Sort
+default_searching_algorithm = Binary_Search
+sorting_threshold = 100
